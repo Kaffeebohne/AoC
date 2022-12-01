@@ -18,7 +18,7 @@ class A {
               currVal = Int32.Parse(line);
               cumSum += currVal;
             } catch (Exception e) {
-              Console.WriteLine("Das hat nicht geklappt!");
+              Console.WriteLine("Sorry dude, your elf is cheating on calories!");
               return -1;
             }
           }
